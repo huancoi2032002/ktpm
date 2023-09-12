@@ -1,0 +1,368 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*------------------------------------------Header--------------------------------*/
+.header{
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    background: #353535;
+    border-bottom: 1px solid black;
+}
+/*--------------------------------------------Menu-------------------------------*/
+.menu{
+    width: 22%;
+    border-right: 1px solid #353535;
+    height: 650px;
+    background: #ECECEC;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #353535;
+}
+.account-admin{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #353535;
+    box-sizing: border-box;
+}
+.account-admin .avatar{
+    height: 126px;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.account-admin img{
+    max-width: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.account-admin .name{
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: black;
+}
+.menu-primary{
+    width: 100%;
+
+}
+.menu-primary .list-menu{
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.menu-item{
+    height: 50px;
+    line-height: 50px;
+}
+.menu-item:hover{
+    background: #777;
+}
+.menu-item a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 30px;
+}
+.menu-item .menu-icon{
+    width: 30px;
+}
+.menu-item .menu-title{
+
+}
+
+
+
+/*-----------------------------------------------COntent----------------------------------------*/
+.content{
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+.container{
+    width: 78%;
+}
+.container .function{
+    width: 96%;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.function-primary{
+    display: flex;
+    box-sizing: border-box;
+    line-height: 35px;
+}
+.function-primary select{
+    height: 36px;
+    width: 80px;
+    margin-top: 7px;
+}
+.function-primary input{
+    height: 33px;
+    width: 200px;
+    margin-top: 7px;
+    outline-style: none;
+    margin-left: 20px;
+    border: 2px solid #777;
+}
+.function-primary button{
+    height: 36px;
+    width: 35px;
+    background: #ee4d2d;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.add-product{
+    height: 36px;
+    width: 100px;
+    border: 1px solid;
+    margin-top: 7px;
+    margin-left: 30px;
+    background: #ee4d2d;
+    text-align: center;
+}
+.add-product button{
+    color: #fff;
+    height: 36px;
+    width: 100px;
+}
+/*-----------------------------------------------------Add-product-------------------------------*/
+.container .modal{
+    height: auto;
+    width: 94%;
+    margin: 0 auto;
+}
+.modal .modal-primary{
+
+}
+.modal .modal-primary .title{
+    font-size: 22px;
+    text-align: center;
+    color: #c30005;
+    height: 80px;
+    line-height: 80px;
+}
+.modal .modal-primary label{
+    font-size: 20px;
+}
+.modal .modal-primary input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    outline-style: none;
+    border: 2px solid #777;
+    border-radius: 5px;
+}
+.modal .modal-primary input[type="file"]{
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+}
+input[type="file"]::-webkit-file-upload-button{
+    height: 35px;
+    width: 150px; 
+    border:2px solid #777;
+}
+.modal .modal-primary select{
+    width: 300px;
+    height: 40px;
+    outline-style: none;
+    border: 2px solid #777;
+    border-radius: 5px;
+}
+
+.btn-add-product {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.btn-add-product button{
+    width: 200px;
+    height: 40px;
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.title_size{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+}
+.title_size .title_size_detail{
+    width: 200px;
+    padding: auto;
+}
+#product_quantity{
+    width: 200px;
+}
+/*--------------------------------------Foooter--------------------------------*/
+.footer{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    background-color: rgb(23, 23, 23);
+}
+.footer .footer-primary{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/*---------------footer detail-------------------*/
+.footer .footer-primary .footer-detail{
+    width: 1202px;
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 80px;
+    border-bottom: 2px solid #fff;
+    height: 220px;
+}
+.footer .footer-primary .footer-detail .row{
+    width: 280px;
+    height: 220px;
+    box-sizing: border-box;
+}
+.footer .footer-primary .footer-detail .row label{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100px;
+}
+.footer-introduce p{
+    color: #a4a4a4;
+    width: 280px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.footer-address ul{
+    margin-top: 20px;
+}
+.footer-address li{
+    list-style: none;
+    padding: 10px;
+    color: #a4a4a4;
+    font-size: 14px;
+    display: flex;
+}
+.footer-address li p{
+    font-size: 14px;
+}
+.footer-address i{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 20px;
+}
+.footer-menu{
+    color: #a4a4a4;
+}
+.footer-menu td{
+    width: 120px;
+    height: 40px;
+}
+
+.footer-menu table{
+    margin-top: 18px;
+}
+.footer-menu a{
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: none;
+}
+
+.footer-social-network a{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 20px;
+}
+.list-social-network{
+    margin-top: 20px;
+}
+.footer-social-network .facebook{
+    width: 45px;
+}
+.footer-social-network .instagram{
+    width: 45px;
+}
+.footer-social-network .youtube{
+    width: 65px;
+}
+.footer-social-network .twitter{
+    width: 45px;
+}
+.footer-social-network .telegram{
+    width: 50px;
+}
+.footer-social-network .row-1{
+    height: 65px;
+    line-height: 65px;
+}
+.footer-social-network .row-2{
+    height: 65px;
+}
+/*--------------------footer-email--------------*/
+.footer-email{
+    width: 1200px;
+    height: 100px;
+}
+.footer-email-primary{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.footer-email-detail{
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    justify-content: space-between;
+}
+.footer-email-title{
+    color: #fff;
+}
+.footer-email-detail .footer-email-btn{
+    display: flex;
+}
+.footer-email-detail .footer-email-btn input{
+    height: 40px;
+    width: 270px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #fff;
+}
+.footer-email-detail .footer-email-btn button{
+    height: 41px;
+    width: 90px;
+    background-color: #c30005;
+    color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: solid #c30005;
+}
+
+/*-------------------------------------copyright-------------------------------------*/
+.copyright{
+    height: 60px;
+    background-color: black;
+    color: #a4a4a4;
+    line-height: 60px;
+    text-align: center;
+    font-size: 15px;
+}
